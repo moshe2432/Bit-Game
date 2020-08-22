@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class PlayerMovment : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float moveSpeed = 5;
+    public Rigidbody2D rb;
 
     // Update is called once per frame
     void Update()
